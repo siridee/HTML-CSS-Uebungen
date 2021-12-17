@@ -29,34 +29,51 @@ section {
   min-width: 10px;
   padding: 1rem 0;
   min-height: 300px;
+  display: flex;
+  justify-content:center;
+  align-items:stretch;
+  flex-direction:row;
+
 }
 
 .col {
   min-width: 20px;
   min-height: 20px;
   margin: 10px;
+  flex-grow: 1;
+  
 }
 
 .trolley-grey {
   background: #7d7c84;
+  order: 1;
+  
+
 }
 
 .sea-green {
   background: #2d93ad;
+  order: 3;
+  
 }
 
 .middle-red {
   background: #de8f6e;
+ 
 }
 
 .black {
   background: #000;
+  
 }
 
 .orange {
   background: orange;
+  order: 2;
+  
 }
 
 .olive {
   background: olive;
 }
+
